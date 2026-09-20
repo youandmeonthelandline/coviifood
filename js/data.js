@@ -23,7 +23,7 @@ const brandInfo = {
     
     // Kênh liên hệ và mạng xã hội (Thay link thực tế tại đây)
     tiktok: "[LINK TIKTOK]",
-    zalo: "[LINK ZALO]",
+    zalo: "https://zalo.me/0948971425",
     facebook: "[LINK FACEBOOK]",
     phone: "[SỐ ĐIỆN THOẠI]",
     email: "[EMAIL LIÊN HỆ]",
