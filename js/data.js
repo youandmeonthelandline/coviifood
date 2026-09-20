@@ -25,9 +25,9 @@ const brandInfo = {
     tiktok: "[LINK TIKTOK]",
     zalo: "https://zalo.me/0948971425",
     facebook: "[LINK FACEBOOK]",
-    phone: "[SỐ ĐIỆN THOẠI]",
+    phone: "0335754615/ 0948971425",
     email: "[EMAIL LIÊN HỆ]",
-    address: "[THAY ĐỊA CHỈ TRỰC TIẾP HOẶC SHOWROOM]",
+    address: "Green Valley, Xuân Sơn, Xuân Trường- Thành phố Đà Lạt, Lâm Đồng, Việt Nam",
     orderNote: "Đặt hàng trực tiếp qua Zalo, TikTok Shop hoặc Facebook Fanpage của Coviifood."
 };
 
