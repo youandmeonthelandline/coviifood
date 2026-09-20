@@ -226,7 +226,7 @@ const products = [
         weight: "[THAY KHỐI LƯỢNG]",
         description: "[THAY MÔ TẢ] — Miếng xoài sấy dẻo quánh, giữ trọn vị chua chua ngọt ngọt cuốn hút của xoài tươi.",
         flavor: "[THAY HƯƠNG VỊ]",
-        texture: "Dẻo mềm, dai xoais
+        texture: "Dẻo mềm, dai xoai",
         ingredients: "[THAY THÀNH PHẦN]",
         productionMethod: "[THAY PHƯƠNG PHÁP SẢN XUẤT]",
         origin: "[THAY NGUỒN NGUYÊN LIỆU]",
