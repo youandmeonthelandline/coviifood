@@ -1,0 +1,208 @@
+/*
+ * ============================================================================
+ * COVIIFOOD - RESPONSIVE STYLES (responsive.css)
+ * ============================================================================
+ */
+
+/* ----------------------------------------------------------------------------
+ * DESKTOP NHỎ & TABLET (Max-width: 1024px)
+ * ---------------------------------------------------------------------------- */
+@media (max-width: 1024px) {
+    .hero-title {
+        font-size: 2.6rem;
+    }
+    
+    .why-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .products-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .journey-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+
+    .channels-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+}
+
+/* ----------------------------------------------------------------------------
+ * TABLET VÀ MOBILE DẠNG NGANG (Max-width: 768px)
+ * ---------------------------------------------------------------------------- */
+@media (max-width: 768px) {
+    .section {
+        padding: 60px 0;
+    }
+
+    .section-title {
+        font-size: 1.8rem;
+    }
+
+    /* Mobile Header & Mobile Menu Drawer */
+    .mobile-nav-toggle {
+        display: block;
+    }
+
+    .main-nav {
+        position: fixed;
+        top: var(--header-height);
+        left: 0;
+        width: 100%;
+        height: calc(100vh - var(--header-height));
+        background-color: #FFFFFF;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 40px 30px;
+        gap: 20px;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in-out;
+        box-shadow: var(--shadow-lg);
+        overflow-y: auto;
+    }
+
+    .main-nav.active {
+        transform: translateX(0);
+    }
+
+    .nav-link {
+        font-size: 1.1rem;
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    /* Hero Section Mobile */
+    .hero-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .hero-content {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .hero-tag {
+        margin: 0 auto 20px auto;
+    }
+
+    .hero-actions {
+        justify-content: center;
+    }
+
+    .hero-image-placeholder,
+    .hero-img {
+        height: 320px;
+    }
+
+    .hero-badge-floating {
+        bottom: -15px;
+        left: 50%;
+        transform: translateX(-50%);
+        white-space: nowrap;
+    }
+
+    /* Story Section Mobile */
+    .story-grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    .timeline-line {
+        left: 20px;
+    }
+
+    .timeline-item {
+        width: 100%;
+        padding-left: 60px;
+        padding-right: 0;
+        text-align: left !important;
+    }
+
+    .timeline-item:nth-child(even) {
+        left: 0;
+    }
+
+    .timeline-item:nth-child(odd) .timeline-node,
+    .timeline-item:nth-child(even) .timeline-node {
+        left: 10px;
+        right: auto;
+    }
+
+    /* Product Filter Bar Mobile */
+    .filter-bar {
+        flex-direction: column;
+        border-radius: var(--border-radius-md);
+        align-items: stretch;
+    }
+
+    .filter-categories {
+        justify-content: center;
+    }
+
+    .search-box {
+        width: 100%;
+    }
+
+    /* Modal Detail Mobile */
+    .modal-body {
+        grid-template-columns: 1fr;
+        padding: 24px;
+        gap: 24px;
+    }
+
+    .modal-image-area {
+        min-height: 240px;
+    }
+
+    /* Journey Mobile */
+    .journey-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Try Section Mobile */
+    .try-section {
+        padding: 40px 20px;
+    }
+
+    .try-section h2 {
+        font-size: 1.8rem;
+    }
+}
+
+/* ----------------------------------------------------------------------------
+ * MOBILE NHỎ (Max-width: 480px)
+ * ---------------------------------------------------------------------------- */
+@media (max-width: 480px) {
+    .why-grid,
+    .products-grid,
+    .channels-grid,
+    .journey-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-title {
+        font-size: 2.1rem;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    .hero-actions {
+        flex-direction: column;
+        width: 100%;
+    }
+}

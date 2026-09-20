@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>Coviifood | Sản phẩm từ nông sản Việt Nam</title>
+    <meta name="description" content="Coviifood - Thương hiệu các sản phẩm thực phẩm sấy sạch từ nông sản Việt Nam. Sấy giòn, sấy dẻo, sấy thăng hoa chất lượng cao và minh bạch.">
+    <meta name="keywords" content="Coviifood, hoa quả sấy, nông sản sấy, sấy thăng hoa, trái cây sấy giòn, trái cây sấy dẻo, đồ ăn vặt">
+    
+    <!-- Open Graph for Social Sharing -->
+    <meta property="og:title" content="Coviifood | Sản phẩm từ nông sản">
+    <meta property="og:description" content="Từ nông sản đến những sản phẩm ngon lành cho mỗi ngày. Khám phá các món sấy tự nhiên từ Coviifood.">
+    <meta property="og:type" content="website">
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+    <!-- ====================================================================
+         1. HEADER & NAVIGATION
+         ==================================================================== -->
+    <header class="site-header">
+        <div class="container header-inner">
+            <!-- Logo Thương Hiệu -->
+            <a href="index.html" class="brand-logo">
+                <svg viewBox="0 0 24 24">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14.5v-9l6 4.5-6 4.5z"/>
+                </svg>
+                <span class="brand-name-text">COVIIFOOD</span>
+            </a>
+
+            <!-- Thanh Menu Điều Hướng (Responsive Nav) -->
+            <nav class="main-nav" id="main-nav">
+                <a href="#hero" class="nav-link active">TRANG CHỦ</a>
+                <a href="#story" class="nav-link">CÂU CHUYỆN</a>
+                <a href="#products" class="nav-link">SẢN PHẨM</a>
+                <a href="#pricing" class="nav-link">BẢNG GIÁ</a>
+                <a href="#why-us" class="nav-link">VÌ SAO COVIIFOOD?</a>
+                <a href="#faq" class="nav-link">FAQ</a>
+                <a href="#contact" class="nav-link">LIÊN HỆ</a>
+            </nav>
+
+            <!-- Nút Action Header -->
+            <div style="display: flex; align-items: center; gap: 12px;">
+                <a href="#products" class="btn btn-primary" style="padding: 10px 20px; font-size: 0.85rem;">Xem sản phẩm</a>
+                <!-- Toggle Mobile Drawer Button -->
+                <button class="mobile-nav-toggle" id="mobile-nav-toggle" aria-label="Toggle Menu">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- ====================================================================
+         2. HERO SECTION (TRANG CHỦ)
+         ==================================================================== -->
+    <section class="hero-section" id="hero">
+        <div class="container">
+            <div class="hero-grid">
+                <!-- Nội dung chữ Hero -->
+                <div class="hero-content">
+                    <div class="hero-tag">
+                        <span>🌱</span> Thương hiệu thực phẩm từ nông sản
+                    </div>
+                    <h1 class="hero-title">
+                        Từ nông sản đến <span>những sản phẩm ngon lành</span> cho mỗi ngày.
+                    </h1>
+                    <p class="hero-description brand-tagline-text">
+                        Coviifood giữ trọn vị ngon tự nhiên và dưỡng chất từ trái cây, rau củ Việt Nam qua các phương pháp sấy hiện đại, mang đến sự an tâm cho bữa ăn gia đình.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#products" class="btn btn-primary">[KHÁM PHÁ SẢN PHẨM]</a>
+                        <a href="#story" class="btn btn-outline">[TÌM HIỂU CÂU CHUYỆN]</a>
+                    </div>
+                </div>
+
+                <!-- Hình ảnh Hero thực tế -->
+                <div class="hero-image-wrapper">
+                    <img src="assets/images/raucuquasaygion.jpg" alt="Coviifood Nông Sản Sấy" class="hero-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="hero-image-placeholder" style="display: none;">
+                        <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" style="margin-bottom: 16px;">
+                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                        </svg>
+                        <strong style="font-size: 1.2rem; margin-bottom: 6px;">[THAY HÌNH ẢNH HERO COVIIFOOD]</strong>
+                        <span style="font-size: 0.85rem; opacity: 0.8;">Khớp không gian sạch, tự nhiên, vị thực phẩm chất lượng cao</span>
+                    </div>
+
+                    <!-- Badge nổi floating -->
+                    <div class="hero-badge-floating">
+                        <span style="font-size: 1.5rem;">✨</span>
+                        <div>
+                            <strong style="display: block; font-size: 0.9rem;">100% Nông Sản Chọn Lọc</strong>
+                            <span style="font-size: 0.8rem; color: var(--color-text-muted);">Sấy giòn • Sấy dẻo • Sấy thăng hoa</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====================================================================
+         3. CÂU CHUYỆN COVIIFOOD (BRAND STORY)
+         ==================================================================== -->
+    <section class="section story-section" id="story">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">CÂU CHUYỆN THƯƠNG HIỆU</span>
+                <h2 class="section-title">Hành trình Coviifood</h2>
+                <p class="section-subtitle">Kết nối trái tim người đầu bếp và khát vọng cho nông sản Việt</p>
+            </div>
+
+            <!-- Thẻ cảnh báo nội dung mẫu -->
+            <div style="text-align: center; margin-bottom: 40px;">
+                <span class="story-badge-sample">[NỘI DUNG MẪU BAN ĐẦU - THAY BẰNG CÂU CHUYỆN CHÍNH THỨC CỦA CHỦ THƯƠNG HIỆU]</span>
+            </div>
+
+            <!-- Grid 4 góc độ câu chuyện -->
+            <div class="story-grid">
+                <div class="story-card">
+                    <h3 class="story-card-title">👨‍🍳 1. Người sáng lập</h3>
+                    <div class="story-card-role">Đầu bếp & Người am hiểu ẩm thực</div>
+                    <p style="font-size: 0.95rem; color: var(--color-text-muted); line-height: 1.6;">
+                        Mong muốn tạo ra những sản phẩm nông sản có chất lượng, hương vị chuẩn vị và phù hợp với thói quen tiêu dùng hiện đại.
+                    </p>
+                </div>
+
+                <div class="story-card">
+                    <h3 class="story-card-title">🦠 2. Coviifood bắt đầu thế nào?</h3>
+                    <div class="story-card-role">Khởi đầu từ thời kỳ COVID</div>
+                    <p style="font-size: 0.95rem; color: var(--color-text-muted); line-height: 1.6;">
+                        Thương hiệu bắt đầu trong giai đoạn COVID, khi nông sản gặp nhiều khó khăn về đầu ra. Ý tưởng chế biến sâu nông sản đã hình thành.
+                    </p>
+                </div>
+
+                <div class="story-card">
+                    <h3 class="story-card-title">💡 3. Vì sao bắt đầu?</h3>
+                    <div class="story-card-role">Giải bài toán đầu ra & chất lượng</div>
+                    <p style="font-size: 0.95rem; color: var(--color-text-muted); line-height: 1.6;">
+                        Tìm kiếm giải pháp bảo quản nông sản lâu hơn mà vẫn giữ được độ ngon tự nhiên, không phụ thuộc vào chất bảo quản độc hại.
+                    </p>
+                </div>
+
+                <div class="story-card">
+                    <h3 class="story-card-title">🎯 4. Coviifood hướng đến điều gì?</h3>
+                    <div class="story-card-role">Sản phẩm ngon lành mỗi ngày</div>
+                    <p style="font-size: 0.95rem; color: var(--color-text-muted); line-height: 1.6;">
+                        Trở thành thương hiệu thực phẩm nông sản uy tín, đồng hành cùng sức khỏe gia đình và sự phát triển của người nông dân.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Timeline Visual -->
+            <h3 style="text-align: center; font-size: 1.5rem; margin-bottom: 10px;">TIẾN TRÌNH PHÁT TRIỂN</h3>
+            <div class="timeline-container" id="story-timeline-container">
+                <div class="timeline-line"></div>
+                <!-- Render từ app.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- ====================================================================
+         4. VÌ SAO COVIIFOOD? (4 CARDS)
+         ==================================================================== -->
+    <section class="section why-section" id="why-us">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">GIÁ TRỊ CỐT LÕI</span>
+                <h2 class="section-title">Vì sao lựa chọn Coviifood?</h2>
+                <p class="section-subtitle">Minh bạch trong từng công đoạn, tận tâm trong từng sản phẩm</p>
+            </div>
+
+            <div class="why-grid" id="why-us-grid-container">
+                <!-- Dynamic render từ app.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- ====================================================================
+         5. TRANG SẢN PHẨM & BỘ LỌC (PRODUCTS CATALOG)
+         ==================================================================== -->
+    <section class="section products-section" id="products">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">DANH MỤC SẢN PHẨM</span>
+                <h2 class="section-title">Sản phẩm từ nông sản Coviifood</h2>
+                <p class="section-subtitle">Khám phá 13 dòng sản phẩm sấy đa dạng hương vị và kết cấu</p>
+            </div>
+
+            <!-- Thanh Bộ Lọc & Ô Tìm Kiếm -->
+            <div class="filter-bar">
+                <div class="filter-categories">
+                    <button class="filter-btn active" data-category="TẤT CẢ">TẤT CẢ</button>
+                    <button class="filter-btn" data-category="SẤY GIÒN">SẤY GIÒN</button>
+                    <button class="filter-btn" data-category="SẤY DẺO">SẤY DẺO</button>
+                    <button class="filter-btn" data-category="SẤY THĂNG HOA">SẤY THĂNG HOA</button>
+                    <button class="filter-btn" data-category="ĐỒ ĂN VẶT">ĐỒ ĂN VẶT</button>
+                </div>
+                <div class="search-box">
+                    <span class="search-icon">🔍</span>
+                    <input type="text" class="search-input" id="product-search-input" placeholder="Tìm sản phẩm...">
+                </div>
+            </div>
+
+            <!-- Grid Render Danh Sách Sản Phẩm -->
+            <div class="products-grid" id="products-grid-container">
+                <!-- Render động bằng JavaScript từ data.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- ====================================================================
+         6. CHI TIẾT SẢN PHẨM MODAL POPUP
+         ==================================================================== -->
+    <div class="modal-overlay" id="product-modal-overlay">
+        <div class="modal-container">
+            <button class="modal-close-btn" onclick="closeProductModal()">✕</button>
+            <div class="modal-body">
+                <!-- Ảnh sản phẩm trong Modal -->
+                <div class="modal-image-area" id="modal-image-container">
+                    <!-- Dynamic SVG -->
+                </div>
+
+                <!-- Thông tin chi tiết sản phẩm -->
+                <div class="modal-info-area">
+                    <span class="modal-category-tag" id="modal-product-category">SẤY GIÒN</span>
+                    <h2 class="modal-product-title" id="modal-product-title">Tên sản phẩm</h2>
+
+                    <div class="modal-price-weight">
+                        <span class="modal-price" id="modal-product-price">[CHƯA CẬP NHẬT]</span>
+                        <span class="modal-weight" id="modal-product-weight">[THAY KHỐI LƯỢNG]</span>
+                    </div>
+
+                    <p id="modal-product-desc" style="font-size: 0.95rem; color: var(--color-text-muted); margin-bottom: 20px; line-height: 1.6;">
+                        [THAY MÔ TẢ SẢN PHẨM]
+                    </p>
+
+                    <!-- Thông số sản phẩm -->
+                    <div class="modal-specs-grid">
+                        <div class="modal-spec-item">
+                            <strong>Hương vị:</strong>
+                            <span id="modal-product-flavor">[THAY HƯƠNG VỊ]</span>
+                        </div>
+                        <div class="modal-spec-item">
+                            <strong>Kết cấu:</strong>
+                            <span id="modal-product-texture">[THAY KẾT CẤU]</span>
+                        </div>
+                        <div class="modal-spec-item">
+                            <strong>Thành phần:</strong>
+                            <span id="modal-product-ingredients">[THAY THÀNH PHẦN]</span>
+                        </div>
+                        <div class="modal-spec-item">
+                            <strong>Nguồn nguyên liệu:</strong>
+                            <span id="modal-product-origin">[THAY NGUỒN NGUYÊN LIỆU]</span>
+                        </div>
+                        <div class="modal-spec-item">
+                            <strong>Phương pháp:</strong>
+                            <span id="modal-product-production">[THAY PHƯƠNG PHÁP SẢN XUẤT]</span>
+                        </div>
+                        <div class="modal-spec-item">
+                            <strong>Bảo quản:</strong>
+                            <span id="modal-product-storage">[THAY CÁCH BẢO QUẢN]</span>
+                        </div>
+                        <div class="modal-spec-item" style="grid-column: 1 / -1;">
+                            <strong>Hạn sử dụng:</strong>
+                            <span id="modal-product-expiry">[THAY HẠN SỬ DỤNG]</span>
+                        </div>
+                    </div>
+
+                    <!-- Khu vực ĐIỀU GÌ ĐẶC BIỆT Ở SẢN PHẨM NÀY? -->
+                    <h4 class="modal-highlights-title">ĐIỀU GÌ ĐẶC BIỆT Ở SẢN PHẨM NÀY?</h4>
+                    <ul class="modal-highlights-list" id="modal-product-highlights">
+                        <!-- Dynamic Highlights -->
+                    </ul>
+
+                    <!-- Nút đặt hàng trong modal -->
+                    <div class="modal-actions">
+                        <a href="#contact" class="btn btn-primary" onclick="closeProductModal()">[MUA NGAY]</a>
+                        <a href="#contact" class="btn btn-outline" onclick="closeProductModal()">[LIÊN HỆ TƯ VẤN]</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ====================================================================
+         7. BẢNG GIÁ COVIIFOOD (PRICING SECTION)
+         ==================================================================== -->
+    <section class="section pricing-section" id="pricing">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">MINH BẠCH GIÁ CẢ</span>
+                <h2 class="section-title">BẢNG GIÁ COVIIFOOD</h2>
+                <p class="section-subtitle">Bảng niêm yết các sản phẩm nông sản sấy chính thức</p>
+            </div>
+
+            <!-- Lưu ý quan trọng về giá -->
+            <div class="pricing-notice-box">
+                <span class="pricing-notice-icon">⚠️</span>
+                <div>
+                    <strong style="color: #E65100; font-size: 1rem; display: block; margin-bottom: 4px;">LƯU Ý VỀ GIÁ BÁN LẺ VÀ GIÁ SỈ:</strong>
+                    <p style="font-size: 0.9rem; color: #5D4037; line-height: 1.5;">
+                        • Giá bán lẻ hiện tại hiển thị dạng <strong>[CHƯA CẬP NHẬT]</strong> cho tới khi chủ thương hiệu cung cấp niêm yết chính thức.<br>
+                        • <strong>Giá sỉ / Giá đại lý</strong> áp dụng theo mức sản lượng và thỏa thuận riêng. <strong>TÍCH CỰC KHÔNG LẤY GIÁ SỈ LÀM GIÁ BÁN LẺ</strong>.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Bảng hiển thị giá -->
+            <div class="pricing-table-wrapper">
+                <table class="pricing-table">
+                    <thead>
+                        <tr>
+                            <th>SẢN PHẨM</th>
+                            <th>DANH MỤC</th>
+                            <th>KHỐI LƯỢNG</th>
+                            <th>GIÁ BÁN LẺ</th>
+                        </tr>
+                    </thead>
+                    <tbody id="pricing-table-body">
+                        <!-- Render tự động từ data.js -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====================================================================
+         8. SECTION "THỬ TRƯỚC KHI CHỌN"
+         ==================================================================== -->
+    <div class="container">
+        <section class="try-section" id="try-before-buy">
+            <h2>Không biết chọn vị nào?</h2>
+            <p>Thử trước – cảm nhận rồi hãy chọn.</p>
+            <div style="font-size: 0.95rem; margin-bottom: 24px; opacity: 0.9;">
+                TRẠM MÂY GLAMPING, Xuân Trường- Đà Lạt là nơi bạn có thể trải nghiệm thử các sản phẩm Coviifood trước khi quyết định mua. Hãy đến và cảm nhận hương vị tự nhiên, kết cấu giòn dẻo và sự tươi ngon của nông sản Việt Nam.
+            </div>
+            <div class="try-actions">
+                <a href="#contact" class="btn btn-light">[TÌM HIỂU CÁCH THỬ]</a>
+                </a>
+                <a href="#contact" class="btn btn-outline" style="border-color: #FFFFFF; color: #FFFFFF;">[LIÊN HỆ]</a>
+            </div>
+        </section>
+    </div>
+
+    <!-- ====================================================================
+         9. HÀNH TRÌNH CỦA MỘT SẢN PHẨM (JOURNEY STORYTELLING)
+         ==================================================================== -->
+    <section class="section journey-section" id="journey">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">QUY TRÌNH CHẾ BIẾN</span>
+                <h2 class="section-title">Hành trình của một sản phẩm</h2>
+                <p class="section-subtitle">Từ những cánh đồng nông sản đến gói quà trọn vị trên tay bạn</p>
+            </div>
+
+            <div class="journey-grid" id="journey-grid-container">
+                <!-- Render 6 bước từ app.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- ====================================================================
+         10. FAQ ACCORDION (CÂU HỎI THƯỜNG GẶP)
+         ==================================================================== -->
+    <section class="section faq-section" id="faq">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">GIAO TIẾP VỚI KHÁCH HÀNG</span>
+                <h2 class="section-title">Câu hỏi thường gặp (FAQ)</h2>
+                <p class="section-subtitle">Giải đáp các thắc mắc phổ biến về Coviifood và sản phẩm</p>
+            </div>
+
+            <div class="faq-accordion" id="faq-accordion-container">
+                <!-- Render 10 câu hỏi từ animations.js / data.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- ====================================================================
+         11. LIÊN HỆ & ĐẶT HÀNG (CONTACT SECTION)
+         ==================================================================== -->
+    <section class="section contact-section" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">KẾT NỐI VỚI COVIIFOOD</span>
+                <h2 class="section-title">Bạn muốn thử Coviifood?</h2>
+                <p class="section-subtitle">Liên hệ ngay qua các kênh chính thức bên dưới để được tư vấn và đặt hàng nhanh nhất</p>
+            </div>
+
+            <div class="channels-grid">
+                <a href="[LINK TIKTOK]" target="_blank" class="channel-card link-tiktok">
+                    <div class="channel-icon">🎵</div>
+                    <h3 class="channel-title">TikTok Shop</h3>
+                    <p class="channel-desc">Xem clip sản phẩm & đặt mua ưu đãi</p>
+                    <span class="btn btn-outline" style="font-size: 0.8rem; padding: 8px 16px;">[LINK TIKTOK]</span>
+                </a>
+
+                <a href="https://zalo.me/0335754615" target="_blank" class="channel-card link-zalo">
+                    <div class="channel-icon">💬</div>
+                    <h3 class="channel-title">Zalo Official</h3>
+                    <p class="channel-desc">Tư vấn trực tiếp & báo giá sỉ</p>
+                    <span class="btn btn-outline" style="font-size: 0.8rem; padding: 8px 16px;">[LINK ZALO]</span>
+                </a>
+
+                <a href="[LINK FACEBOOK]" target="_blank" class="channel-card link-facebook">
+                    <div class="channel-icon">📘</div>
+                    <h3 class="channel-title">Facebook Fanpage</h3>
+                    <p class="channel-desc">Cập nhật tin tức & nhắn tin fanpage</p>
+                    <span class="btn btn-outline" style="font-size: 0.8rem; padding: 8px 16px;">[LINK FACEBOOK]</span>
+                </a>
+
+                <a href="tel:0335754615" class="channel-card link-phone">
+                    <div class="channel-icon">📞</div>
+                    <h3 class="channel-title">Hotline Đặt Hàng</h3>
+                    <p class="channel-desc">Gọi điện trao đổi trực tiếp</p>
+                    <span class="btn btn-primary" style="font-size: 0.8rem; padding: 8px 16px;">0335754615</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====================================================================
+         12. FOOTER
+         ==================================================================== -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Cột 1: Thông tin thương hiệu -->
+                <div class="footer-brand">
+                    <h3 class="brand-name-text">COVIIFOOD</h3>
+                    <p class="brand-tagline-text" style="margin-bottom: 16px;">
+                        Từ nông sản đến những sản phẩm ngon lành cho mỗi ngày.
+                    </p>
+                    <p style="font-size: 0.85rem; color: #72767A;">
+                        [THAY ĐỊA CHỈ TRỰC TIẾP HOẶC THÔNG TIN CÔNG TY]
+                    </p>
+                </div>
+
+                <!-- Cột 2: Menu Nhanh -->
+                <div>
+                    <h4 class="footer-col-title">Menu Nhanh</h4>
+                    <div class="footer-links">
+                        <a href="#hero">Trang chủ</a>
+                        <a href="#story">Câu chuyện</a>
+                        <a href="#products">Sản phẩm</a>
+                        <a href="#pricing">Bảng giá</a>
+                        <a href="#why-us">Vì sao chọn chúng tôi</a>
+                    </div>
+                </div>
+
+                <!-- Cột 3: Danh Mục Sản Phẩm -->
+                <div>
+                    <h4 class="footer-col-title">Danh Mục</h4>
+                    <div class="footer-links">
+                        <a href="#products">Sấy Giòn</a>
+                        <a href="#products">Sấy Dẻo</a>
+                        <a href="#products">Sấy Thăng Hoa</a>
+                        <a href="#products">Đồ ĂN Vặt</a>
+                    </div>
+                </div>
+
+                <!-- Cột 4: Kênh Truyền Thông -->
+                <div>
+                    <h4 class="footer-col-title">Kết Nối</h4>
+                    <div class="footer-links">
+                        <a href="[LINK TIKTOK]" target="_blank" class="link-tiktok">TikTok Shop</a>
+                        <a href="https://zalo.me/0335754615" target="_blank" class="link-zalo">Zalo Official</a>
+                        <a href="[LINK FACEBOOK]" target="_blank" class="link-facebook">Facebook Page</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Bottom Copyright -->
+            <div class="footer-bottom">
+                <p>© 2026 COVIIFOOD. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Files -->
+    <script src="js/data.js"></script>
+    <script src="js/products.js"></script>
+    <script src="js/filter.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
